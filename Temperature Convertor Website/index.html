@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Convertor Website</title>
+
+</head>
+
+<body>
+    <h1 class="title">Temperature Convertor Website</h1>
+    <div class="card">
+        <div class="card-container">
+            <div class="input-section">
+                <div class="input">
+                    <label for="temp" id="temp-input-dialog">Given Temperature</label>
+                    <input type="number" id="temp-input">
+                    <div class="convertor">
+                        <select name="Celsiusorfahrenheit" id="celsiusorfahrenheit">
+                            <option value="celsius" id="ce">Celsius</option>
+                            <option value="fahrenheit" id="fa">Fahrenheit</option>
+                            <option value="kelvin" id="ke">Kelvin</option>
+                        </select>
+                        <button class="convert-btn">Convert to Celsius, Kelvin and Fahrenheit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="output-section">
+                <h2>Temperature</h2>
+                <div class="celsius-output">
+                    <span>Celsius- 0 &#8451;</span>
+
+                </div>
+                <div class="fahrenheit-output">
+                    <span>Fahrenheit- 0 &#8457;</span>
+                </div>
+                <div class="kelvin-output">
+                    <span>Kelvin- 0 K</span>
+                </div>
+                <button class="reset-btn">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

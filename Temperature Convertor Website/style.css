@@ -1,0 +1,97 @@
+* {
+    font-family: "Space Mono", monospace;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(185, 41%, 84%);
+    /* gap: 4rem; */
+}
+
+.title {
+    color: hsl(183, 100%, 15%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card {
+    background-color: turquoise;
+    width: 700px;
+    border-radius: 1rem;
+}
+
+.card-container {
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+
+.convert-btn {
+    margin-top: 10px;
+}
+
+.input-section,
+.output-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.output-section {
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: darkcyan;
+}
+
+.input-section {
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: hsl(186, 14%, 43%);
+}
+
+.reset-btn {
+    margin-top: 50px;
+}
+
+.celsius-output {
+    /* height: 25px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fahrenheit-output {
+    /* height: 25px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kelvin-output {
+    /* height: 25px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#temp-input-dialog {
+    font-size: large;
+    font-weight: 700;
+}
+
+#temp-input {
+    margin: 20px 0px;
+    width: 210px;
+}
+
+.convertor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(65, 65, 185);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(116, 116, 184);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(39, 39, 219);
+            font-size: 1.05rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        #firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+            align-items: center;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+        }
+
+        .leftSection .buttons {
+            padding: 30px 0;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .leftSection .btn {
+            padding: 12px 0;
+            color: white;
+            background-color: #060c38;
+            border: 2px solid white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .text-gray {
+            color: #509089;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        #firstSection>div {
+            width: 30%;
+        }
+
+        .purple {
+            color: black;
+        }
+
+        #element {
+            color: black;
+        }
+
+
+        #secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 100vh;
+        }
+
+        #secondSection h1 {
+            font-size: 2rem;
+        }
+
+        #secondSection .box {
+            background: white;
+            width: 70vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        #secondSection .vertical:nth-of-type(2n) {
+            height: 93px;
+            width: 3px;
+            background-color: white;
+            margin: 0 140px;
+        }
+
+        #secondSection .vertical:nth-of-type(2n+1) {
+            height: 180px;
+            width: 3px;
+            background-color: rgb(71, 79, 233);
+            margin: 0 140px;
+        }
+
+        .image-top {
+            width: 27px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .image-top-stud {
+            width: 75px;
+            position: relative;
+            top: -36px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 150px;
+            width: 150px;
+            right: 15px;
+            color: gray;
+            font-size: 20px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            width: 150px;
+            top: 151px;
+            right: 15px;
+        }
+
+        .vertical-title-odd {
+            position: relative;
+            top: 65px;
+            width: 150px;
+            right: 15px;
+            color: gray;
+            font-size: 20px;
+        }
+
+        .vertical-desc-odd {
+            position: relative;
+            width: 150px;
+            top: 67px;
+            right: 15px;
+        }
+
+        footer {
+            background-color: rgb(0, 30, 30);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 35px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 230px;
+        }
+
+
+        .aboutheading {
+            margin: 0px 23px;
+            font-weight: 700;
+        }
+
+        .about {
+            margin: 0px 15px;
+        }
+
+        #fourthSection {
+            margin-top: 20px;
+        }
+
+        .profile {
+            margin: 25px 500px;
+            width: 250px;
+        }
+
+        .contact ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .contact ul li a:hover {
+            color: rgb(39, 39, 219);
+            font-size: 1.05rem;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        .linkedin {
+            width: 15px;
+            margin-left: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Gaurav's Space</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#thirdSection">About</a></li>
+                    <li><a href="#firstSection">Home</a></li>
+                    <li><a href="#fourthSection">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="#fifthSection">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="firstSection">
+            <div class="leftSection">Hi, My name is <span class="purple">Gaurav</span>
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="acad_cv (1).pdf" download><button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/kapoorg172"><button class="btn">Visit Github</button></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="10798281_19362653.jpg" alt="">
+            </div>
+        </section>
+        <section id="secondSection">
+            <span class="text-gray">What I have done so far!!</span>
+            <h1>Past Experiences</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="web-developer.251x256.png" alt="">
+                    <div class="vertical-title">
+                        Web Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Established Web Developer since 2023
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="cloud-tech-three-types-of-cloud-computing-768x468.png" alt="">
+                    <div class="vertical-title-odd">
+                        Cloud Technologies
+                    </div>
+                    <div class="vertical-desc-odd">
+                        Learnt AWS and Azure and their Various Technologies
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top-stud" src="Graphic-Design-Courses-718x300.jpg" alt="">
+                    <div class="vertical-title">
+                        Student
+                    </div>
+                    <div class="vertical-desc">
+                        Doing Undergrad from VIT Vellore 2021-Current
+                        <br>
+                        Did 12th From CBSE Board 2020-2021
+                        <br>
+                        Did 10th From CBSE Board 2018-2019
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="IEEE EMBS.png" alt="">
+                    <div class="vertical-title-odd">
+                        Volunteering
+                    </div>
+                    <div class="vertical-desc-odd">
+                        Core Commitee Member in IEEE EMBS from 2022-2023
+                    </div>
+                </div>
+                <div class="vertical"></div>
+            </div>
+        </section>
+        <section id="thirdSection">
+            <h2 class="aboutheading">About Me!!</h2>
+            <img class="profile" src="55426-min.jpg" alt="">
+            <div class="about">
+                I am a passionate and driven third-year student pursuing a Bachelor's degree in Computer Science and
+                Engineering (CSE). My academic journey has equipped me with a solid foundation in various domains of
+                computer science, with a particular focus on web development, cloud technologies, and data structures
+                and algorithms. With hands-on experience in HTML, CSS, JavaScript, and various web development
+                frameworks like React.js and Node.js, I have developed dynamic and responsive web applications. I am
+                proficient in building user-friendly interfaces and ensuring seamless user experiences across different
+                platforms.I have a keen interest in cloud computing and have practical experience working with platforms
+                such as AWS (Amazon Web Services) and Azure. I am adept at deploying, managing,
+                and scaling applications in cloud environments, leveraging services like EC2, S3, Lambda.
+            </div>
+        </section>
+        <section id="fourthSection">
+            <h2 class="aboutheading">Services</h2>
+            <div class="services">
+                I give free food advice jokes apart, i'll be able to build a website for you and offer my technical
+                services. I'll be able to help you out with Cloud Deployment of your product/services. Overall, I will
+                be an excellent fit for your work.
+            </div>
+        </section>
+        <section id="fifthSection">
+            <h2 class="aboutheading">Contact</h2>
+            <div class="contact">
+                <ul>
+                    <li>&#9742; Contact Number: +91-9840391530</li>
+                    <li><a href="mailto:kapoorg172@gmail.com">&#128231; Email</a></li>
+                    <li><a href="https://www.linkedin.com/in/gaurav-k-4ab5aa140/"><img class="linkedin"
+                                src="LinkedIn_icon.svg.png" alt=""> Linkedin</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Gaurav's Dev Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="#firstSection">Home</a></li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169 www.gauravkapoorsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Coder.', 'Tech Enthusiast.'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="indexjs.js"></script>
+
+</body>
+
+</html>
